@@ -36,67 +36,67 @@
 
 #define LARGE_FLASH true
 
-#define X_STEP_PIN 37 
-#define X_DIR_PIN 39
-#define X_MIN_PIN 22
-#define X_MAX_PIN 24
-#define X_ENABLE_PIN 35
+#define X_STEP_PIN          37 
+#define X_DIR_PIN           39
+#define X_MIN_PIN           22
+#define X_MAX_PIN           24
+#define X_ENABLE_PIN        35
 
-#define Y_STEP_PIN 31
-#define Y_DIR_PIN 33
-#define Y_MIN_PIN 26
-#define Y_MAX_PIN 28
-#define Y_ENABLE_PIN 29
+#define Y_STEP_PIN          31
+#define Y_DIR_PIN           33
+#define Y_MIN_PIN           26
+#define Y_MAX_PIN           28
+#define Y_ENABLE_PIN        29
 
-#define Z_STEP_PIN 25
-#define Z_DIR_PIN 23
-#define Z_MIN_PIN 30
-#define Z_MAX_PIN 32
-#define Z_ENABLE_PIN 27
+#define Z_STEP_PIN          25
+#define Z_DIR_PIN           23
+#define Z_MIN_PIN           30
+#define Z_MAX_PIN           32
+#define Z_ENABLE_PIN        27
 
-#define HEATER_BED_PIN 4
-#define TEMP_BED_PIN 10
+#define HEATER_BED_PIN      4
+#define TEMP_BED_PIN        10
 
-#define HEATER_0_PIN  10//2
-#define TEMP_0_PIN 11//8
+#define HEATER_0_PIN        10 // 2
+#define TEMP_0_PIN          11 // 8
 
-#define HEATER_1_PIN 3
-#define TEMP_1_PIN 9
+#define HEATER_1_PIN        3
+#define TEMP_1_PIN          9
 
-#define HEATER_2_PIN -1
-#define TEMP_2_PIN -1
+#define HEATER_2_PIN        -1
+#define TEMP_2_PIN          -1
 
-#define E0_STEP_PIN         46//43
-#define E0_DIR_PIN          44//45
-#define E0_ENABLE_PIN       12//41
+#define E0_STEP_PIN         46 // 43
+#define E0_DIR_PIN          44 // 45
+#define E0_ENABLE_PIN       12 // 41
 
 #define E1_STEP_PIN         49
 #define E1_DIR_PIN          47
 #define E1_ENABLE_PIN       48
 
-#define SDPOWER            -1
-#define SDSS               53
-#define LED_PIN            6
-#define FAN_PIN            9
-#define PS_ON_PIN          12
-#define KILL_PIN           -1
-#define SUICIDE_PIN        54  //PIN that has to be turned on right after start, to keep power flowing.
-#define SERVO0_PIN         13  // untested
+#define SDPOWER             -1
+#define SDSS                53
+#define LED_PIN             6
+#define FAN_PIN             9
+#define PS_ON_PIN           12
+#define KILL_PIN            -1
+#define SUICIDE_PIN         54  // PIN that has to be turned on right after start, to keep power flowing.
+#define SERVO0_PIN          13  // untested
 
-#define CASE_LIGHT_PIN	6
+#define CASE_LIGHT_PIN	    6
 
-#define BEEPER_PIN 18
+#define BEEPER_PIN          18
 
-#define LCD_PINS_RS 20
-#define LCD_PINS_ENABLE 17
-#define LCD_PINS_D4 16
-#define LCD_PINS_D5 21
-#define LCD_PINS_D6 5
-#define LCD_PINS_D7 36
+#define LCD_PINS_RS         20
+#define LCD_PINS_ENABLE     17
+#define LCD_PINS_D4         16
+#define LCD_PINS_D5         21
+#define LCD_PINS_D6         5
+#define LCD_PINS_D7         36
 
 //buttons are directly attached
-#define BTN_EN1 42
-#define BTN_EN2 40
-#define BTN_ENC 19  //the click
+#define BTN_EN1             42
+#define BTN_EN2             40
+#define BTN_ENC             19  //the click
 
-#define SD_DETECT_PIN 38// was SDCARDDETECT in older versions
+#define SD_DETECT_PIN       38 // was SDCARDDETECT in older versions
