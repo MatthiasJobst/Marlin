@@ -371,9 +371,9 @@
                                   // is more than PID_FUNCTIONAL_RANGE then the PID will be shut off and the heater will be set to min/max.
 
   // Geeetech MK8 Extruder
-  #define DEFAULT_Kp 12.33
-  #define DEFAULT_Ki 0.51
-  #define DEFAULT_Kd 74.50
+  #define DEFAULT_Kp 15.76
+  #define DEFAULT_Ki 0.90
+  #define DEFAULT_Kd 69.06
 
   // CTC MK8 Extruder
   //#define DEFAULT_Kp 19.86
@@ -433,9 +433,9 @@
   //#define PID_BED_DEBUG // Sends debug data to the serial port.
 
   //Default MeCreator 2
-  #define DEFAULT_bedKp 137.65
-  #define DEFAULT_bedKi 24.71
-  #define DEFAULT_bedKd 191.70
+  #define DEFAULT_bedKp 125.93
+  #define DEFAULT_bedKi 23.65
+  #define DEFAULT_bedKd 167.65
 
   //120V 250W silicone heater into 4mm borosilicate (MendelMax 1.5+)
   //from FOPDT model - kp=.39 Tp=405 Tdead=66, Tc set to 79.2, aggressive factor of .15 (vs .1, 1, 10)
